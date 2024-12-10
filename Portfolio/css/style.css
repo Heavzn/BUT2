@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#logo {
+    margin-left: 10px;
+}
+a:link{
+    text-decoration:none;
+    color:white;
+    font-style: normal;
+}
+.navig{
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-right: 1.6em;
+    font-style: italic;
+    filter: opacity(100%);
+    font-size: large;
+    font-size: 1.5em;
+}
+nav{
+    
+    filter: opacity(100%);
+    border: 10%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 100px;
+}
+.navigation a:hover{
+    color:black;
+    background-color: white;   
+}
+nav ul li{
+    size: 120%;
+}
+.map{
+    align-content: center;
+    margin-top: 13%;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;;
+}
