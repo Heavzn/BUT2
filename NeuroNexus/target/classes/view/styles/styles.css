@@ -1,0 +1,108 @@
+.button, .choice-box {
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-opacity: 0.7;
+}
+
+.series0.chart-symbol {
+    -fx-background-color: rgb(255, 195, 18);
+    -fx-shape: "M0.5,0 A0.5,0.5 0 1,1 0.5,1 A0.5,0.5 0 1,1 0.5,0 Z";
+}
+
+.series1.chart-symbol {
+    -fx-background-color: rgb(247, 159, 31);
+    -fx-shape: "M0,0 L1,0 L1,1 L0,1 Z";
+}
+
+.series2.chart-symbol {
+    -fx-background-color: rgb(238, 90, 36);
+    -fx-shape: "M0.5,0 L1,1 L0,1 Z";
+}
+
+.series3.chart-symbol {
+    -fx-background-color: rgb(234, 32, 39);
+    -fx-shape: "M0.5,0 L0.6,0.3 L1,0.35 L0.7,0.55 L0.8,0.9 L0.5,0.7 L0.2,0.9 L0.3,0.55 L0,0.35 L0.4,0.3 Z";
+}
+
+.series4.chart-symbol {
+    -fx-background-color: rgb(196, 229, 56);
+    -fx-shape: "M0.5,0 L1,0.5 L0.5,1 L0,0.5 Z";
+}
+
+
+.series5.chart-symbol {
+    -fx-background-color: rgb(163, 203, 56);
+    -fx-shape: "M0.25,0 L0.75,0 L0.75,0.25 L1,0.25 L1,0.75 L0.75,0.75 L0.75,1 L0.25,1 L0.25,0.75 L0,0.75 L0,0.25 L0.25,0.25 Z";
+}
+
+.series6.chart-symbol {
+    -fx-background-color: rgb(0, 148, 50);
+    -fx-shape: "M0.5,0 L0.9,0.25 L0.9,0.75 L0.5,1 L0.1,0.75 L0.1,0.25 Z";
+}
+
+.series7.chart-symbol {
+    -fx-background-color: rgb(0, 98, 102);
+    -fx-shape: "M0.5,0 L1,0.4 L0.8,1 L0.2,1 L0,0.4 Z";
+}
+
+.series8.chart-symbol {
+    -fx-background-color: rgb(18, 203, 196);
+    -fx-shape: "M0.2,0 L1,0 L0.8,1 L0,1 Z";
+}
+
+.series9.chart-symbol {
+    -fx-background-color: rgb(18, 137, 167);
+    -fx-shape: "M0,0.25 L0.75,0.25 L0.75,0 L1,0.5 L0.75,1 L0.75,0.75 L0,0.75 Z";
+}
+
+.series10.chart-symbol {
+    -fx-background-color: rgb(6, 82, 221);
+    -fx-shape: "M0.5,0 L1,0.4 L0.5,1 L0,0.4 Z";
+}
+
+.series11.chart-symbol {
+    -fx-background-color: rgb(6, 82, 221);
+    -fx-shape: "M0.5,0 L0.7,0.3 L1,0.4 L0.8,0.6 L1,0.8 L0.6,0.7 L0.5,1 L0.4,0.7 L0,0.8 L0.2,0.6 L0,0.4 L0.3,0.3 Z";
+}
+
+.series12.chart-symbol {
+    -fx-background-color: rgb(27, 20, 100);
+    -fx-shape: "M0,0.5 A0.5,0.5 0 1,1 1,0.5 Z";
+}
+
+.series13.chart-symbol {
+    -fx-background-color: rgb(253, 167, 223);
+    -fx-shape: "M0.4,0 L0.6,0 L0.6,1 L0.4,1 Z";
+}
+
+.series14.chart-symbol {
+    -fx-background-color: rgb(217, 128, 250);
+    -fx-shape: "M0,0.4 L1,0.4 L1,0.6 L0,0.6 Z";
+}
+
+.series15.chart-symbol {
+    -fx-background-color: rgb(153, 128, 250);
+    -fx-shape: "M0.5,0 A0.5,0.5 0 1,1 0,0.5 A0.3,0.3 0 0,0 0.5,0 Z";
+}
+
+.series16.chart-symbol {
+    -fx-background-color: rgb(87, 88, 187);
+    -fx-shape: "M0,0 L1,0 L0.7,0.5 L1,1 L0,1 L0.3,0.5 Z";
+}
+
+.series17.chart-symbol {
+    -fx-background-color: rgb(237, 76, 103);
+    -fx-shape: "M0.1,0.1 L0.9,0.1 A0.1,0.1 0 0,1 0.9,0.9 L0.1,0.9 A0.1,0.1 0 0,1 0.1,0.1 Z";
+}
+
+.series18.chart-symbol {
+    -fx-background-color: rgb(181, 52, 113);
+    -fx-shape: "M0.5,0 A0.5,0.5 0 1,1 1,0.5 L0.5,0.5 Z";
+}
+
+.series19.chart-symbol {
+    -fx-background-color: rgb(131, 52, 113);
+    -fx-shape: "M0.5,0 L1,0.5 L0.5,1 L0,0.5 Z";
+}
