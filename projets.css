@@ -1,0 +1,78 @@
+
+.back-projet{
+    background-color: white;
+    margin-top: 2%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projets {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%; /* Espace entre les cartes */
+    
+}
+
+.carte-container {
+    perspective: 1000px; /* Perspective pour l'effet 3D */
+}
+
+.carte {
+    
+    width: 250px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d; /* Préserve la transformation 3D */
+    transition: transform 0.6s; /* Durée de l'animation */
+}
+
+.carte:hover {
+    transform: rotateY(180deg); /* Rotation en Y lors du survol */
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Cache la face arrière lors de la rotation */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    border-radius: 9%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.face-avant {
+    justify-content: flex-start;
+}
+
+.face-avant img {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+
+.face-arriere {
+    transform: rotateY(180deg); /* Retourne la face arrière pour être prête à l'affichage */
+    background-color: #e0e0e0;
+    justify-content: flex-start;
+}
+
+.face-arriere p {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: auto;
+    
+}
